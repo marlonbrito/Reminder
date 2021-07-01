@@ -1,0 +1,24 @@
+{
+  "name": "app-instareminde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build":"npx electron-packager . --icon assets/task.icns --out=packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonbrito/Reminder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marlonbrito/Reminder/issues"
+  },
+  "homepage": "https://github.com/marlonbrito/Reminder#readme",
+  "devDependencies": {
+    "electron": "^13.1.4"
+  }
+}
